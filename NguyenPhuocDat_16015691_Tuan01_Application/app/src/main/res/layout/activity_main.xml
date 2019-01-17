@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/colorAqua"
+        android:gravity="center"
+        android:text="Cac kieu lap trinh su kien"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:text="So a:"
+
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/edt_soa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:text="So b:"
+
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/edt_sob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_kq"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/colorAqua"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_tong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tong"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/btn_hieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hieu"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btn_tich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tich"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btn_thuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thuong"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btn_uocchung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uoc chung lon nhat"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btn_thoat"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Thoat"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"/>
+</LinearLayout>
